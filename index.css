@@ -1,0 +1,131 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url("assets/font/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: RasaSemiBold;
+  src: url("assets/font/Rasa/static/Rasa-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: InterSemiBold;
+  src: url("assets/font/Inter/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: OrelegaOne;
+  src: url("assets/font/Orelega_One/OrelegaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("assets/font/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url("assets/font/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: PoppinsSemiBoldItalic;
+  src: url("assets/font/Poppins/Poppins-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: PoppinsMedium;
+  src: url("assets/font/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: PromptSemiBold;
+  src: url("assets/font/Prompt/Prompt-SemiBold.ttf");
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar-mobile {
+    width: 390px;
+    height: 64px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    padding: 0 30px;
+    font-family: Poppins, sans-serif;
+    font-size: 8px;
+    justify-content: space-between;
+    background-color: #e9ebff;
+    z-index: 10;
+  }
+
+  .navbar-mobile a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .navbar-mobile img {
+    width: 23px;
+  }
+
+  .navbar-mobile .active {
+    color: #0d2990;
+  }
+
+  .mobile-search-bar {
+    width: 80vw;
+    margin: auto;
+    height: 35px;
+    background-color: #e9ebff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: calc(-1 * (35 / 2) * 1px);
+  }
+
+  .mobile-search-bar input {
+    background-color: inherit;
+    font-family: PoppinsMedium, sans-serif;
+    font-size: 10px;
+    color: #94959f;
+    border: none;
+    outline: none;
+    width: 70%;
+  }
+
+  .mobile-search-bar i {
+    font-size: 10px;
+    color: #94959f;
+    margin-right: 10px;
+  }
+
+  .mobile-search-bar button {
+    width: 57px;
+    height: 18px;
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #f86c98;
+    color: #fff;
+    font-family: PoppinsMedium, sans-serif;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    right: 10px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,121 @@
+.my-profile {
+  background-image: linear-gradient(to right, #8296ff, #6176f6);
+  width: 100%;
+  height: 170px;
+  padding: 23px;
+  font-family: PoppinsSemiBold, sans-serif;
+}
+
+.my-profile h1 {
+  margin-top: 0.5em;
+  color: #0d2990;
+  font-size: 20px;
+}
+
+.my-profile-profile-information {
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.profile-information-sofia-pp {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5em;
+}
+
+.profile-information-middle {
+  flex-grow: 1;
+  color: #fff;
+  font-family: PoppinsSemiBold, sans-serif;
+}
+
+.profile-information-middle p {
+  font-size: 12px;
+}
+
+.profile-information-middle p:first-child {
+  font-size: 15px;
+}
+
+.profile-information-pen {
+  width: 16px;
+}
+
+.badge {
+  background-color: #e9ebff;
+  border-radius: 30px;
+  border: 0.2px solid #dec6ef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 8px;
+  padding: 6px;
+  margin-left: 60px;
+  margin-top: calc(0.5 * 30 * -1px);
+}
+
+.badge img {
+  width: 21px;
+}
+
+.account {
+  width: 100%;
+  padding: 23px;
+}
+
+.account h2 {
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 15px;
+  color: #0d2990;
+}
+
+.account-link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 5px;
+}
+
+.account-link {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  height: 32px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.account-link img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.account-link-right p {
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 12px;
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+}
+
+.account-link-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.account-link-right div {
+  height: 0.1px;
+  width: 100%;
+  background-color: #000;
+}
